@@ -16,7 +16,6 @@ envparse-stubs==0.2.2
 emoji==2.8.0
 ffmpeg-python==0.2.0
 cockroachdb
-future
 glitch_this==1.0.2
 geopy==2.4.0
 gpytranslate==1.5.1
