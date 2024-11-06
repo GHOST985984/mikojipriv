@@ -48,29 +48,29 @@ class Config(object):
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
     API_ID = int(getenv("API_ID", "20433698"))
     API_HASH = getenv("API_HASH", "2dfd061fd900a52385873e0ccab30032")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001836376079"))
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1002023182491"))
     DATABASE_URL = getenv(
         "DATABASE_URL",
-        "postgres://ukdokyxz:PCI1FNfW3GxSq73bamNSAVTD4yFgnwjc@flora.db.elephantsql.com/ukdokyxz",
+        "postgres://wsnioboi:Fkf1ef7qRJVP1CvP_gKYqhdxk6LXBbQE@balarama.db.elephantsql.com/wsnioboi",
     )  # elephantsql.com
-    REDIS_URL = "redis://default:yaemiko69@redis-18467.c59.eu-west-1-2.ec2.cloud.redislabs.com:18467/Yaemiko-free-db"  # redis.os
+    REDIS_URL = "redis-cli -u redis://default:uAoinUQfH83lGLZvXYk5nMGHGCQnZL2s@redis-12586.c74.us-east-1-4.ec2.redns.redis-cloud.com:12586"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://yaemiko:yaemiko69@cluster0.ojfsgey.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://orewauzumaki:orewauzumaki@cluster0.bmhengh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     )
-    TOKEN = getenv("TOKEN", "5854437226:AAFyvEfe3OAGSlmci4Dddu01DOuhxTjdZGk")
+    TOKEN = getenv("TOKEN", "7916656117:AAEtfNXS7b33yMiWNBRpItPzkuBaVrLAeZM")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "its_damiann")
-    OWNER_ID = int(getenv("OWNER_ID", "6965147961"))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "hunterXsupport")
+    OWNER_ID = int(getenv("OWNER_ID", "6848223695"))
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "The_City_of_magicians")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
-    MONGO_DB = "Mikobot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
+    MONGO_DB = "orewauzumaki"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "arq.hamker.dev"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_KEY = "YZXQNZ-TPCRLZ-HKWWKY-SPPYAL-ARQ"
-    DONATION_LINK = "t.me/hunter_karan"
-    HELP_IMG = "https://telegra.ph/file/9bfa3469592452c39aec9.jpg"
-    START_IMG = "https://telegra.ph/file/bf80063f7e7671f578962.jpg"
-    UPDATES_CHANNEL = "Hydra_Updates"
+    DONATION_LINK = "t.me/about_tosuu"
+    HELP_IMG = "https://telegra.ph/file/3cc3ffc61293d1687b3bb-8dc0c2ec4d77869def.jpg"
+    START_IMG = "https://telegra.ph/file/4890436bf12c47f4e6980-35455c4480d88289d5.jpg"
+    UPDATES_CHANNEL = "The_Hogwart"
     INFOPIC = False
     GENIUS_API_TOKEN = (
         "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
@@ -94,7 +94,7 @@ class Config(object):
     AI_API_KEY = "SOME1HING_privet_990022"
     ALLOW_CHATS = True
     CERT_PATH = []
-    SPAMWATCH_SUPPORT_CHAT = "hunterXsupport"
+    SPAMWATCH_SUPPORT_CHAT = "The_Hogwart"
     BOT_API_URL = "https://api.telegram.org/bot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DRAGONS = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DEV_USERS = get_user_list("elevated_users.json", "devs")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
